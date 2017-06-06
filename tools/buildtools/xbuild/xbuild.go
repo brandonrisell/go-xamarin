@@ -94,7 +94,7 @@ func (xbuild Model) buildCommandSlice() []string {
 		cmdSlice = append(cmdSlice, fmt.Sprintf("/target:%s", xbuild.target))
 	}
 
-	cmdSlice = append(cmdSlice, fmt.Sprintf("/p:SolutionDir=\"%s/\"", filepath.Dir(xbuild.solutionPth)))
+	cmdSlice = append(cmdSlice, fmt.Sprintf("/p:SolutionDir=%s%s", filepath.Dir(xbuild.solutionPth), os.PathSeparator))
 
 	if xbuild.configuration != "" {
 		cmdSlice = append(cmdSlice, fmt.Sprintf("/p:Configuration=%s", xbuild.configuration))
