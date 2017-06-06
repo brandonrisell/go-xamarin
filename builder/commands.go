@@ -7,7 +7,7 @@ import (
 	"github.com/bitrise-tools/go-xamarin/constants"
 	"github.com/bitrise-tools/go-xamarin/tools"
 	"github.com/bitrise-tools/go-xamarin/tools/buildtools/mdtool"
-	"github.com/bitrise-tools/go-xamarin/tools/buildtools/xbuild"
+	"github.com/brandonrisell/go-xamarin/tools/buildtools/xbuild"
 	"github.com/bitrise-tools/go-xamarin/tools/nunit"
 	"github.com/bitrise-tools/go-xamarin/utility"
 )
