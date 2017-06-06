@@ -7,12 +7,12 @@ import (
 	"time"
 
 	"github.com/bitrise-io/go-utils/pathutil"
-	"github.com/bitrise-tools/go-xamarin/analyzers/project"
-	"github.com/bitrise-tools/go-xamarin/analyzers/solution"
-	"github.com/bitrise-tools/go-xamarin/constants"
-	"github.com/bitrise-tools/go-xamarin/tools"
-	"github.com/bitrise-tools/go-xamarin/tools/nunit"
-	"github.com/bitrise-tools/go-xamarin/utility"
+	"github.com/brandonrisell/go-xamarin/analyzers/project"
+	"github.com/brandonrisell/go-xamarin/analyzers/solution"
+	"github.com/brandonrisell/go-xamarin/constants"
+	"github.com/brandonrisell/go-xamarin/tools"
+	"github.com/brandonrisell/go-xamarin/tools/nunit"
+	"github.com/brandonrisell/go-xamarin/utility"
 )
 
 // Model ...
